@@ -6,7 +6,7 @@ export const DC = () => {
       <h3 className="pt-5 px-5">DC comics</h3>
       <hr />
 
-      <HeroList publisher= "DC Comics"/>
+      <HeroList publisher="DC Comics" />
     </>
   );
 };
