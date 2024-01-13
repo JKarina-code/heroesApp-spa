@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-
 import { Login } from "../auth/pages/Login";
 import {HeroesRoutes} from "../heroes"
 export const AppRouter = () => {

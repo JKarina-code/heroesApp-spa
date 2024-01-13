@@ -7,7 +7,6 @@ export const HeroDetail = () => {
   const navigate = useNavigate();
 
   const hero = useMemo(() => getHeroById(id), [id]);
-  console.log(hero);
   const onNavigateBack = () => {
     navigate(-1);
   };
